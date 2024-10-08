@@ -11,7 +11,7 @@ class PropertyPage {
         return $('//div[contains(@id, "parking_facilities") and contains(translate(., "POOL", "pool"), "pool")]');
     }
     
-    //Functions for the third test! 
+    //Functions
 
     async refreshAndScrollToShowMoreButton() {
         await browser.refresh();
