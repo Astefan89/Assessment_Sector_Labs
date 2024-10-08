@@ -52,9 +52,10 @@ describe('Airbnb Website Test Suite', () => {
 
             HomePage.setCheckOutDate();
     
+            
             await HomePage.selectCheckInDate();
-    
             await HomePage.selectCheckOutDate();
+            
 
     });
 
@@ -89,6 +90,7 @@ describe('Airbnb Website Test Suite', () => {
 
         await browser.maximizeWindow();
         await browser.pause(2000);       
+
     });
 
     it('Should hover over the first property and check the map pin display and color change and click on the map pin', async () => {
